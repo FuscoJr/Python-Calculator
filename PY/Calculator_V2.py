@@ -1,3 +1,15 @@
+def calculate(a,b, operator):
+    if operator == "+":
+        return a+b
+    elif operator == "-":
+        return a-b
+    elif operator == "*":
+        return a*b
+    elif operator == "/":
+        return a/b if b != 0 else "Error: division by zero"
+    else:
+        return "Invalid operation"
+
 #!/usr/bin/env python
 # coding: utf-8
 
